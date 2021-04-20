@@ -21,4 +21,5 @@ def hello():
     return "hello edabit.com"
 
 
-Test.assert_equals(hello(), "hello edabit.com")
+if __name__ == '__main__':
+    Test.assert_equals(hello(), "hello edabit.com")
