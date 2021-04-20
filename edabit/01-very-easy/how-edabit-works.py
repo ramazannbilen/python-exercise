@@ -15,6 +15,9 @@ from edabit.Test import Test
 
 
 def hello():
+    """
+    Summary: This method returns a string
+    """
     return "hello edabit.com"
 
 
