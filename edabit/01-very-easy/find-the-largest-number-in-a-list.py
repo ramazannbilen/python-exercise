@@ -20,6 +20,8 @@ from edabit.Test import Test
 def findLargestNum(nums):
     return max(nums)
 
+def findSmallestNum(nums):
+    return min(nums)
 
 if __name__ == '__main__':
     Test.assert_equals(findLargestNum([4, 5, 1, 3]), 5)
@@ -29,3 +31,10 @@ if __name__ == '__main__':
     Test.assert_equals(findLargestNum([27364, 837363, 736736, 73635]), 837363)
     Test.assert_equals(findLargestNum([30, 2, 40, 3]), 40)
     Test.assert_equals(findLargestNum([0, 1, 0, 0, 1]), 1)
+    Test.assert_equals(findSmallestNum([4, 5, 1, 3]), 1)
+    Test.assert_equals(findSmallestNum([13, 27, 18, 26]), 13)
+    Test.assert_equals(findSmallestNum([32, 35, 37, 39]), 32)
+    Test.assert_equals(findSmallestNum([1000, 1001, 857, 1]), 1)
+    Test.assert_equals(findSmallestNum([27364, 837363, 736736, 73635]), 27364)
+    Test.assert_equals(findSmallestNum([30, 2, 40, 3]), 2)
+    Test.assert_equals(findSmallestNum([0, 1, 0, 0, 1]), 0)
