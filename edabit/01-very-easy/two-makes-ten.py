@@ -15,6 +15,7 @@ from edabit.Test import Test
 
 
 def makes10(a, b):
+    """ This Method calculates in params!.. """
     if a or b == 10:
         return True
     elif a + b == 10:
