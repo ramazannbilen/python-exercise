@@ -16,7 +16,7 @@ from edabit.Test import Test
 
 
 def give_me_something(a):
-    gms = lambda a: "something "+a
+    gms = lambda a: "something "+a # first code that I use lambda function.
     return gms(a)
 
 
