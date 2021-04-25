@@ -20,7 +20,7 @@ from edabit.Test import Test
 
 
 def swap(a, b):
-    temp = a
+    temp = a   # first code was: a=b,b=a
     a = b
     b = temp
     return [a, b]
