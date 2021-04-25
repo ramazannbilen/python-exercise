@@ -16,7 +16,7 @@ from edabit.Test import Test
 
 
 def is_seven(x):
-    if x == 7:                          # first code was: return False if x=7 elif True
+    if x == 7:
         return True
     else:
         return False
