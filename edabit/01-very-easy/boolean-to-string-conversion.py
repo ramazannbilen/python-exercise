@@ -21,6 +21,7 @@ def bool_to_string(flag):
     else:
         return "False"
 
+
 if __name__ == '__main__':
     Test.assert_equals(bool_to_string(True), "True")
     Test.assert_equals(bool_to_string(False), "False")
