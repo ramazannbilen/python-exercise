@@ -16,10 +16,11 @@ from edabit.Test import Test
 
 
 def stutter(word):
-    def first2(s):
-        return s[:2]    #this method gets first two(choicable) character of the string.
+    # def first2(s): ok, but we dont need
+    #    return s[:2]    #this method gets first two(choicable) character of the string.
 
-    str1 = first2(word)
+    # str1 = first2(word)
+    str1 = word[:2]
     str2 = "... "
     word = str1 + str2 + str1 + str2 + word + "?"
     return word
