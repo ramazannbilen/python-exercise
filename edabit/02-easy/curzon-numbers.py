@@ -32,6 +32,7 @@ def is_curzon(num):
     else:
         return False
 
+
 if __name__ == '__main__':
     Test.assert_equals(is_curzon(5), True)
     Test.assert_equals(is_curzon(10), False)
