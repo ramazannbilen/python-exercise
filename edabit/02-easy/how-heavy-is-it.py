@@ -21,10 +21,12 @@ If you get stuck on a challenge, find help in Resources.
 from edabit.Test import Test
 from math import pi
 
+
 def weight(r, h):
-    volume = pi*r**2*h
+    volume = pi * r ** 2 * h
     dvolume = volume / 1000
-    return round(dvolume,2)
+    return round(dvolume, 2)
+
 
 if __name__ == '__main__':
     Test.assert_equals(weight(4, 10), 0.5)
