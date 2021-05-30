@@ -10,6 +10,7 @@ is_same_num(2, 2) ➞  True
 is_same_num(2, "2") ➞ False
 Notes
 Don't forget to return the result.
+hi kadir
 """
 
 from edabit.Test import Test
