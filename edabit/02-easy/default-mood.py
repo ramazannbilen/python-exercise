@@ -16,7 +16,7 @@ from edabit.Test import Test
 
 
 def mood_today(
-        mood="neutral"):  #if a parameter equals a string or anything then it is default type. I mean if user dont use a parameter in method, the parameter will be it.
+        mood="neutral"):  # if a parameter equals a string or anything then it is default type. I mean if user dont use a parameter in method, the parameter will be it.
     return "Today, I am feeling " + mood
 
 
