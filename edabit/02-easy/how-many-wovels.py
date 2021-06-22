@@ -20,7 +20,7 @@ wovels = ["a", "e", "i", "o", "u"]
 
 def count_vowels(txt):
     count = 0
-    for i in range(len(txt)): # every string is an array, do not forget it!
+    for i in range(len(txt)): # every string is an array, do not forget it.
         if txt[i] in wovels:
             count += 1
     return count
