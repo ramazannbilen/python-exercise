@@ -25,7 +25,7 @@ def series_resistance(lst):
     for i in range(len(lst)):
         sum += lst[i]
     if sum <= 1:
-        return ('{} {}'.format(sum, "ohm"))
+        return ('{} {}'.format(sum, "ohm"))         #remember this format() function
     else:
         return ('{} {}'.format(sum, "ohms"))
 
