@@ -6,6 +6,24 @@ from edabit.Test import Test
 
 if __name__ == '__main__':
 
+
+
+#     sayılar = [[0, 10], [6, 60], [12, 54], [67, 99]]
+#
+#     for i in sayılar:
+#         print(*range(*i))
+
+
+
+
+    # def factorial(n):
+    #     if n == 0 or n == 1:
+    #         return 1
+    #     else:
+    #         return (n * factorial(n - 1))
+    #
+    # print(factorial(3)
+
 # mylist = [1, 2, 3, 4, 5, 6]
 # for i in range(1, 6):
 #     mylist[i - 1] = mylist[i]
@@ -83,7 +101,7 @@ if __name__ == '__main__':
 
 # a = 3 * 5 % 4
 # print(a)
-a = "ramazan"
+"""a = "ramazan"
 wovels = ["a", "e", "i", "o", "u"]
 num = 0
 for i in a:
@@ -91,4 +109,4 @@ for i in a:
         num = +1
     else:
         num = num
-print(num)
+print(num)"""
