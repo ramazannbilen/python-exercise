@@ -17,9 +17,11 @@ from edabit.Test import Test
 
 
 def move_to_end(lst, el):
-    lst2 = [i for i in lst if i != el]
-    el2 = lst.count(el)
-    return lst2 + el2 * [el]
+    # lst2 = [i for i in lst if i != el]
+    # el2 = lst.count(el)
+    # return lst2 + el2 * [el]
+
+    return [i for i in lst if i != el] + [j for j in lst if j == el]
 
 
 if __name__ == '__main__':
