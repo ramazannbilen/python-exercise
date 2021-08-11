@@ -21,7 +21,7 @@ from edabit.Test import Test
 
 
 def get_distance(a, b):
-    xaxis = [a['x'], b['x']]
+    xaxis = [a['x'], b['x']] #pythagorean
     yaxis = [a['y'], b['y']]
     xlong = abs(xaxis[0] - xaxis[1])
     ylong = abs(yaxis[0] - yaxis[1])
