@@ -5,14 +5,39 @@
 from edabit.Test import Test
 
 if __name__ == '__main__':
-    ab = {'a': 1, 'b': 2}
-    cd = {'a': 3, 'b': -1}
-    xaxis = [ab['a'],cd['a']]
-    v = 5
+
+    a = [[0,1,2],[3,4,5],[6,7,8]]
+    print(a[1][1])
+
+    #a = "alphabet"
+    #b = ""
+    #print(b.join(sorted(a)))
 
 
+    # How to sort a Python dict by value
+    # (== get a representation sorted by value)
+    """>> > xs = {'a': 4, 'b': 3, 'c': 2, 'd': 1}
 
-    #print(list(ab.values()))
+    >> > sorted(xs.items(), key=lambda x: x[1])
+    [('d', 1), ('c', 2), ('b', 3), ('a', 4)]
+
+    # Or:
+
+    >> > import operator
+    >> > sorted(xs.items(), key=operator.itemgetter(1))
+    [('d', 1), ('c', 2), ('b', 3), ('a', 4)]"""
+
+    # a = [{"adı":"ahmet","age":15},{"adı":"mehmet","age":30}]
+    # b = [i["age"] for i in a]
+    # print(sum(b))
+
+    # lst = [0,1,2,3,4]
+    # lst.remove(lst[0])
+    # lst.insert(len(lst),5)
+    # print(lst.remove(lst[0]))
+    # print(lst)
+
+    # print(list(ab.values()))
 
     """lst1 = [0, 0, 0, 0, 0]
     lst2 = [i for i in enumerate(lst1)]
