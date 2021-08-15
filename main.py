@@ -6,13 +6,22 @@ from edabit.Test import Test
 
 if __name__ == '__main__':
 
-    a = [[0,1,2],[3,4,5],[6,7,8]]
-    print(a[1][1])
+    
 
-    #a = "alphabet"
-    #b = ""
-    #print(b.join(sorted(a)))
+    #abc = {123: "a", 124: "b", 125: "c"}
+    #def call(id):
+        #print(f'hi {}'.format(abc.get(id,"there")))
+    #call(125)
 
+    # a = 0xFF
+    # print(bin(int(str(a)[2:])))
+
+    # a = [[0,1,2],[3,4,5],[6,7,8]]
+    # print(a[1][1])
+
+    # a = "alphabet"
+    # b = ""
+    # print(b.join(sorted(a)))
 
     # How to sort a Python dict by value
     # (== get a representation sorted by value)
