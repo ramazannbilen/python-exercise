@@ -6,12 +6,19 @@ from edabit.Test import Test
 
 if __name__ == '__main__':
 
-    
 
-    #abc = {123: "a", 124: "b", 125: "c"}
-    #def call(id):
-        #print(f'hi {}'.format(abc.get(id,"there")))
-    #call(125)
+    """aa = "11/12/2019"
+    ab = aa.split("/")
+    ab.reverse()
+    ac = ""
+    for i in ab:
+        ac += i
+    print(ac)"""
+
+    # abc = {123: "a", 124: "b", 125: "c"}
+    # def call(id):
+    # print(f'hi {}'.format(abc.get(id,"there")))
+    # call(125)
 
     # a = 0xFF
     # print(bin(int(str(a)[2:])))
