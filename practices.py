@@ -2,7 +2,6 @@
 # notlarım
 
 
-
 # *args ** kwargs
 # lambda (lambda x: x + 1)(2) = lambda 2: 2 + 1
 # = 2 + 1
@@ -479,8 +478,8 @@ print(new)"""
 #             print("X KAZANDI!")
 #             quit()
 
-    # cm = 0.0005
-    # n = 3
+# cm = 0.0005
+# n = 3
 # for i in range(n):
 #    cm *= 2
 # print(cm)
