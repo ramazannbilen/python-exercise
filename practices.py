@@ -1,6 +1,8 @@
 # python
 # notlarım
-#
+
+
+
 # *args ** kwargs
 # lambda (lambda x: x + 1)(2) = lambda 2: 2 + 1
 # = 2 + 1
