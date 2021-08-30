@@ -2,6 +2,20 @@
 # notlarım
 
 
+
+# class team:
+#     country = "ramo"
+#
+#     def __init__(self, name, color1, color2, players, coach):
+#         self.name = name
+#         self.color1 = color1
+#         self.color2 = color2
+#         self.players = players
+#         self.coach = coach
+#
+# a1 = team("chelsea","white","blue",11,"Me")
+# print(a1.country,a1.name,a1.coach,a1.color1,a1.color2,a1.players)
+
 # x = "a"
 # print(ord(x))
 
