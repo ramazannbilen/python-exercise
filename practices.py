@@ -3,6 +3,24 @@
 
 
 
+# harfler = 'abcçdefgğhıijklmnoöprsştuüvyz'
+# çevrim = {i: harfler.index(i) for i in harfler}
+#
+# def sırala(kelime):
+#     return ([çevrim.get(kelime[i]) for i in range(len(kelime))])
+#
+# isimler = ['ahmet', 'can', 'iskender', 'cigdem',
+#            'ismet', 'ismail', 'ismit', 'çiğdem',
+#            'ismıt', 'ışık', 'şule']
+#
+# print(*sorted(isimler, key=sırala), sep='\n')
+
+# türkçe karakterlerle sıralama hatası almamak için kullan
+# import locale
+# locale.setlocale(locale.LC_ALL, 'Turkish_Turkey.1254')
+# isimler = ['ahmet', 'çiğdem', 'ışık', 'şebnem', 'zeynep', 'selin']
+# sorted(isimler, key=locale.strxfrm)
+
 # class team:
 #     country = "ramo"
 #
