@@ -1,14 +1,8 @@
 # python
 # notlarım
 
-a = 14.0
-b = 14
-print(int(a))
-print(type(a),type(b))
-if a == b :
-    print("yes")
-else:
-    print("no")
+
+
 # harfler = 'abcçdefgğhıijklmnoöprsştuüvyz'
 # çevrim = {i: harfler.index(i) for i in harfler}
 #
