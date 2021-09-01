@@ -18,12 +18,17 @@ is_sastry(106755) ➞ True
 Notes
 A perfect square is a number with a square root equals to a whole integer.
 You can expect only valid positive integers greater than 0 as input, without exceptions to handle. Zero is a perfect square, but the concatenation 00 isn't considered as a valid result to check."""
-
+import math
 from edabit.Test import Test
 
 
 def is_sastry(n):
-    return
+    if math.sqrt(int(str(n)+str(n+1))) == int(math.sqrt(int(str(n)+str(n+1)))):
+        return True
+    else:
+        return False
+
+
 
 Test.assert_equals(is_sastry(183), True)
 Test.assert_equals(is_sastry(184), False)
