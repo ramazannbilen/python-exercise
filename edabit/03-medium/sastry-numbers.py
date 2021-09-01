@@ -23,7 +23,7 @@ from edabit.Test import Test
 
 
 def is_sastry(n):
-    
+    return
 
 Test.assert_equals(is_sastry(183), True)
 Test.assert_equals(is_sastry(184), False)
