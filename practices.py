@@ -1,7 +1,8 @@
 # python
 # notlarım
 
-
+# a=[1, 2, 3, 4, 5]
+# print(max(a))
 
 # harfler = 'abcçdefgğhıijklmnoöprsştuüvyz'
 # çevrim = {i: harfler.index(i) for i in harfler}
