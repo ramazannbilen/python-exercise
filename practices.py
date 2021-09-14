@@ -2,8 +2,51 @@
 # notlarım
 
 # a=[1, 2, 3, 4, 5]
-# print(max(a))
+#print(2**13)
 
+
+
+# import webbrowser as wb
+#
+# a = wb.get("https://eksisozluk.com/")
+# a.
+#
+# def find_word(site, word):
+#     site = input("with https give me a website: ")
+#     word = input("give me a word to look for: ")
+
+"""a =[BackgroundBrowser
+BaseBrowser
+Chrome
+Chromium
+Elinks
+Error
+Galeon
+GenericBrowser
+Grail
+Konqueror
+Mozilla
+Netscape
+Opera
+UnixBrowser
+WindowsDefault
+get
+main
+open
+open_new
+open_new_tab
+os
+register
+register_X_browsers
+register_standard_browsers
+shlex
+shutil
+subprocess
+sys
+threading]"""
+
+# home_page = wb.open("https://eksisozluk.com/")
+# print(type(home_page))
 
 # harfler = 'abcçdefgğhıijklmnoöprsştuüvyz'
 # çevrim = {i: harfler.index(i) for i in harfler}
