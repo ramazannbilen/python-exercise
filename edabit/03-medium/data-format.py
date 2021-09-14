@@ -23,6 +23,7 @@ def format_date(date):
         last += i
     return last
 
+
 if __name__ == '__main__':
     Test.assert_equals(format_date("11/12/2019"), "20191211")
     Test.assert_equals(format_date("12/31/2019"), "20193112")
