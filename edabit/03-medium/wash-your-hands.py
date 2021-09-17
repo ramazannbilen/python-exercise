@@ -18,7 +18,7 @@ Wash your hands.
 from edabit.Test import Test
 
 def wash_hands(N, nM):
-    totalsec = nM * 30 * N * 21
+    totalsec = nM * 30 * N * 21   # I can use divmod() also.
     exactmin = totalsec // 60
     exactsec = totalsec % 60
     return f"{exactmin} minutes and {exactsec} seconds"
