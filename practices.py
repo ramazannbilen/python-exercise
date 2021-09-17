@@ -3,6 +3,12 @@
 
 
 
+# word = "ramo"
+# letters = "abcdefghijklmnopqrstuvxyzw"
+# a = [letters.index(i) for i in word]
+# b = [i + 1 for i in a]
+# c = [letters[i] for i in b]
+# print(c)
 # lst=[]
 # lst.append(1)
 # lst.append("a"*3)
