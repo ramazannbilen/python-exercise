@@ -1,7 +1,11 @@
 # python
 # notlarım
 
-
+# lst=[]
+# lst.append(1)
+# lst.append("a"*3)
+# lst.insert(1,"b")
+# print(lst)
 
 # a=[1, 2, 3, 4, 5]
 #print(2**13)
