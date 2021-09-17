@@ -4,6 +4,9 @@
 # a=[1, 2, 3, 4, 5]
 #print(2**13)
 
+ab = {"a":1,"b":2,"c":3}
+b = list(ab.keys())
+print(ab["a"])
 
 
 # import webbrowser as wb
