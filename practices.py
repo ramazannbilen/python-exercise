@@ -1,6 +1,8 @@
 # python
 # notlarım
 
+
+
 # lst=[]
 # lst.append(1)
 # lst.append("a"*3)
@@ -8,7 +10,7 @@
 # print(lst)
 
 # a=[1, 2, 3, 4, 5]
-#print(2**13)
+# print(2**13)
 
 # ab = {"a":1,"b":2,"c":3}
 # b = list(ab.keys())
