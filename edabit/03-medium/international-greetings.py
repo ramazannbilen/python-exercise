@@ -38,7 +38,7 @@ GUEST_LIST = {
 
 def greeting(name):
     if name in list(GUEST_LIST.keys()):
-        return "Hi! I'm {}, and I'm from {}.".format(name,GUEST_LIST[name])
+        return f"Hi! I'm {name}, and I'm from {GUEST_LIST[name]}." #use f-string instead of format method!
     else:
         return "Hi! I'm a guest."
 
