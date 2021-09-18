@@ -1,9 +1,13 @@
 # python
 # notlarım
-n = int(input("sayı gir: "))
-a = [1/i for i in range(1,n+1)]
-print(round(sum(a),3))
 
+
+# x = "import object from module_name"
+# y = x.split(" ",2)
+# a = y[-1]
+# y.pop(-1)
+# y.insert(0,a)
+# print(" ".join(y))
 # word = "ramo"
 # letters = "abcdefghijklmnopqrstuvxyzw"
 # a = [letters.index(i) for i in word]
