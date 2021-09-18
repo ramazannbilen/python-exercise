@@ -1,7 +1,8 @@
 # python
 # notlarım
-
-
+n = int(input("sayı gir: "))
+a = [1/i for i in range(1,n+1)]
+print(round(sum(a),3))
 
 # word = "ramo"
 # letters = "abcdefghijklmnopqrstuvxyzw"
