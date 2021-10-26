@@ -1,6 +1,157 @@
 # python
 # notlarım
 
+def içinde_b_harf_var_mı(kelime):
+    a = []
+    for i in kelime:
+        if i.isupper() == True:
+            a.append(i)
+        else:
+            continue
+    if len(a) < 0:
+        return False
+    else:
+        return True
+
+
+def içinde_sayı_var_mı(kelime):
+    a = []
+    for i in kelime:
+        if i.isnumeric() == True:
+            a.append(i)
+        else:
+            continue
+    if len(a) < 0:
+        return False
+    else:
+        return True
+
+
+
+
+
+# def büyükharfecevir(kelime):
+#     a = str(kelime).upper()
+#     return a
+#
+# def küçükharfecevir(kelime):
+#     a = str(kelime).lower()
+#     return a
+#
+# name = input("İsminizi giriniz: ")
+# surname = input("lütfen soyadınızı girin: ")
+# nickname = input("lütfen nick girin: ")
+# password = input("""lütfen parola girin
+# (Not: parolada en az 1 büyük harf,1 küçük harf ve sayı olsun, parola enfazla  karakter olsun, en az 5 olsun): """)
+#
+# if len(password) < 5 or len(password) > 8:
+#     print("Lütfen 5-8 kuralına dikkat edin")
+# else:
+#     if içinde_b_harf_var_mı(password) == False:
+#         print("kardeşim içinde bharf olsun dedik")
+#     else:
+#         if içinde_sayı_var_mı(password) == False:
+#             print("birader sayı da kullan")
+#         else:
+#             print(f'Merhaba sayın {name.capitalize()} {surname.upper()}. Hoşgeldiniz' )
+
+
+
+
+
+
+
+
+
+
+
+
+"""import re
+
+a = 'Ramazan bilen'
+b = re.match('Ramazan', a)
+print(b.span())"""
+
+"""import tkinter as tk #(A simple usage of tkinter)
+#
+win = tk.Tk()
+win.geometry('500x200')
+#
+etiket = tk.Label(text='Selmanın Penceresi')
+etiket.pack()
+#
+buton = tk.Button(text='Kapat', command=win.destroy)
+buton.pack()
+#
+win.mainloop()"""
+
+"""class Car():
+    #A simple car generator
+    def __init__(self, brand, model, year):
+        self.brand = brand
+        self.model = model
+        self.year = year
+        self.chassis_type = ""
+
+    def start(self):
+        print("Car is started.")
+
+    def stop(self):
+        print("Car is stopped.")
+
+    def move_forward(self):
+        print("Car is moving forward.")
+
+    def move_backward(self):
+        print("Car is moving backward.")
+
+    def turn_left(self):
+        print("Car is turning left.")
+
+    def turn_right(self):
+        print("Car is turning right.")
+
+    def speed_up(self):
+        print("Car is speeding up.")
+
+    def slow_down(self):
+        print("Car is slowing down.")
+
+class Gas_car(Car):
+    def __init__(self, brand, model, year, date, tank_brand):
+        super().__init__(brand,model,year)
+        self.date = date
+        self.tank_brand = tank_brand
+        self.consumption = 0.15
+
+class Benzin_car(Car):
+
+    def __init__(self, brand, model, year):
+        super().__init__(brand, model, year)
+        self.consumption = 0.40
+
+class Electric_car(Car):
+
+    def __init__(self, brand, model, year):
+        super().__init__(brand,model,year)
+        self.battery = 100
+        self.battery_brand = ""
+
+    def battery_update(self):
+        if self.move_backward():
+            self.battery -= 0.1
+        if self.move_forward():
+            self.battery -= 0.1
+        if self.slow_down():
+            self.battery -= 0.2
+        if self.speed_up():
+            self.battery -= 0.2
+
+araba1 = Car("audi", "a3", 1999)
+araba2 = Electric_car("tesla","t1",1950)
+
+
+print(araba2.battery)"""
 
 # x = "import object from module_name"
 # y = x.split(" ",2)
@@ -99,7 +250,9 @@ threading]"""
 #         self.coach = coach
 #
 # a1 = team("chelsea","white","blue",11,"Me")
-# print(a1.country,a1.name,a1.coach,a1.color1,a1.color2,a1.players)
+# #print(a1.country,a1.name,a1.coach,a1.color1,a1.color2,a1.players)
+# print(team.country)
+
 
 # x = "a"
 # print(ord(x))
@@ -608,8 +761,8 @@ print(new)"""
 # print(cm)
 # a = [1, 1, 2, 2, 3, 3]
 # b = [i for i in lst if i != el]
-# # count = 0
-# # for i in a:
+# count = 0
+# for i in a:
 # #     if i == 1:
 # #         count += 1
 # print(b+[1,1])
@@ -646,7 +799,7 @@ print(new)"""
 # yazı6.pack()
 #
 #
-# # **ilk bölüm**
+# **ilk bölüm**
 # window = Tk()
 # window.title("Circle")
 # window.geometry("400x400")
