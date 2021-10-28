@@ -1,30 +1,45 @@
 # python
 # notlarım
 
-def içinde_b_harf_var_mı(kelime):
-    a = []
-    for i in kelime:
-        if i.isupper() == True:
-            a.append(i)
-        else:
-            continue
-    if len(a) < 0:
-        return False
-    else:
-        return True
+# a = ["1","2","3"]
+# b = []
+#
+#
+# for i in range(len(a)):
+#     b.append([])
+#     for j in range(len(a)):
+#         b[i].append(a[i])
+#
+# print(b)
+
+# arr = [[0 for x in range(len(a))] for y in range(len(a))]
+# print(arr)
 
 
-def içinde_sayı_var_mı(kelime):
-    a = []
-    for i in kelime:
-        if i.isnumeric() == True:
-            a.append(i)
-        else:
-            continue
-    if len(a) < 0:
-        return False
-    else:
-        return True
+# def içinde_b_harf_var_mı(kelime):
+#     a = []
+#     for i in kelime:
+#         if i.isupper() == True:
+#             a.append(i)
+#         else:
+#             continue
+#     if len(a) < 0:
+#         return False
+#     else:
+#         return True
+#
+#
+# def içinde_sayı_var_mı(kelime):
+#     a = []
+#     for i in kelime:
+#         if i.isnumeric() == True:
+#             a.append(i)
+#         else:
+#             continue
+#     if len(a) < 0:
+#         return False
+#     else:
+#         return True
 
 
 
@@ -54,15 +69,6 @@ def içinde_sayı_var_mı(kelime):
 #             print("birader sayı da kullan")
 #         else:
 #             print(f'Merhaba sayın {name.capitalize()} {surname.upper()}. Hoşgeldiniz' )
-
-
-
-
-
-
-
-
-
 
 
 
