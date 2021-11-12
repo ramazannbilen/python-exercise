@@ -1,14 +1,19 @@
 # python
 # çalışma alanım
 
-a = ["m", "r", "o", "a"]
-b = [2, 0, 3, 1]
-c = [0] * len(a)
-for i in range(len(a)):
-    c[b[i]] = a[i]
+a = "rammo"
+b = "umbrella"
 
-print(c)
 
+
+
+# a = ["m", "r", "o", "a"]
+# b = [2, 0, 3, 1]
+# c = [0] * len(a)
+# for i in range(len(a)):
+#     c[b[i]] = a[i]
+#
+# print(c)
 
 # a = ["1","2","3"]
 # b = []
