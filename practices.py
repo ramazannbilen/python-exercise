@@ -1,8 +1,13 @@
 # python
 # çalışma alanım
 
+a = ["m", "r", "o", "a"]
+b = [2, 0, 3, 1]
+c = [0] * len(a)
+for i in range(len(a)):
+    c[b[i]] = a[i]
 
-
+print(c)
 
 
 # a = ["1","2","3"]
@@ -46,9 +51,6 @@
 #         return True
 
 
-
-
-
 # def büyükharfecevir(kelime):
 #     a = str(kelime).upper()
 #     return a
@@ -73,7 +75,6 @@
 #             print("birader sayı da kullan")
 #         else:
 #             print(f'Merhaba sayın {name.capitalize()} {surname.upper()}. Hoşgeldiniz' )
-
 
 
 """import re
