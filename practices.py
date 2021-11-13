@@ -1,9 +1,6 @@
 # python
 # çalışma alanım
 
-from socket import *
-
-
 
 
 # a = ["m", "r", "o", "a"]
