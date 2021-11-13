@@ -1,7 +1,8 @@
 # python
 # çalışma alanım
 
-
+for i in range(1,2):
+    print(i)
 
 # a = ["m", "r", "o", "a"]
 # b = [2, 0, 3, 1]
