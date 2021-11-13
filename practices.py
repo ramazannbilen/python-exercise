@@ -1,12 +1,6 @@
 # python
 # çalışma alanım
 
-dict = {"a":"b","c":[1,2,3]}
-
-dict["newc"] = dict["c"]
-del dict["c"]
-print(dict)
-
 
 
 # a = ["m", "r", "o", "a"]
