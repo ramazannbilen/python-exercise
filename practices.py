@@ -1,6 +1,10 @@
 # python
 # çalışma alanım
 
+from socket import *
+
+
+
 
 # a = ["m", "r", "o", "a"]
 # b = [2, 0, 3, 1]
