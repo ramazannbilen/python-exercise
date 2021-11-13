@@ -1,8 +1,25 @@
 # python
 # çalışma alanım
 
-a = "rammo"
-b = "umbrella"
+a = [[1, 2], [3, 4], [1, 5], [7, 4], [1, 8], [6, 4], [5, 2]]
+b = [[7, 1], [3, 2], [8, 0], [7, 4], [1, 2], [7, 3], [6, 4]]
+cmax = []
+cmin =[]
+for i in range(len(a)):
+    if max(b[i]) >= max(a[i]):
+        cmax.append(max(b[i]))
+    else:
+        cmax.append(max(a[i]))
+    if min(b[i]) <= min(a[i]):
+        cmin.append(min(b[i]))
+    else:
+        cmin.append(min(a[i]))
+res = []
+for i in range(len(cmin)):
+    res.append([cmin[i],cmax[i]])
+
+print(res)
+
 
 
 
