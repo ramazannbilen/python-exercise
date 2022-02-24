@@ -48,7 +48,6 @@ def encode_morse(message):
 
     return " ".join(morse)
 
-
 Test.assert_equals(encode_morse("EDABBIT CHALLENGE"), ". -.. .- -... -... .. -   -.-. .... .- .-.. .-.. . -. --. .")
 Test.assert_equals(encode_morse("HELP ME !"), ".... . .-.. .--.   -- .   -.-.--")
 Test.assert_equals(encode_morse("CHALLENGE"), "-.-. .... .- .-.. .-.. . -. --. .")
