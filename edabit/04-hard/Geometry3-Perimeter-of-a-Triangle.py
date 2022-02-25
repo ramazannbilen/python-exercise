@@ -19,7 +19,11 @@ from edabit.Test import Test
 
 
 def perimeter(lst):
-    return
+    x1 = abs(lst[0][0]-lst[1][0])**2 + abs(lst[0][1]-lst[1][1])**2
+    x2 = abs(lst[0][0]-lst[2][0])**2 + abs(lst[0][1]-lst[2][1])**2
+    x3 = abs(lst[1][0]-lst[2][0])**2 + abs(lst[1][1]-lst[2][1])**2
+
+    return round(x1**(1/2) + x2**(1/2) + x3**(1/2),2)
 
 Test.assert_equals(perimeter([[0, 0], [1, 0], [0, 1]]), 3.41)
 Test.assert_equals(perimeter([[15, 7], [5, 22], [11, 1]]), 47.08)
